@@ -23,10 +23,10 @@ def search(labels, lowercase_labels, good_labels, word):
 	Look for label names in the labels that are similar to word.
 
 	Args:
-		word (str): string we want words exact/similar to.
 		labels (list): list containing label names from the Trello project, as they are.
 		lowercase_labels (list): list containing label names from the Trello project, all lowercase letters.
 		good_labels (list): originally empty list, in which we will add word.
+		word (str): string we want words exact/similar to.
 	Returns:
 		None.
 	"""
