@@ -72,7 +72,7 @@ cardIds = []			# empty list where we will store card ID's
 label_names = []		# empty list where we will store unmodified label names
 label_names_lc = []		# empty list where we will store lowercase label names
 
-print("\nList of cards, their respective ID's, and their respectiev label names:")
+print("\nList of cards, their respective ID's, and their respective label names:")
 
 for x in range(0, len(boards.get_card(boardId))):			# 0 to 9, because 10 cards
 	y = boards.get_card(boardId)[x]							# get every individual card's info
