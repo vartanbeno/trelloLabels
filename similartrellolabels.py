@@ -12,7 +12,6 @@ import difflib			# provides classes and functions for comparing sequences/files
 from trello import TrelloApi, Boards, Cards
 import urllib2
 import json
-import requests
 
 __author__ = "Vartan Benohanian"
 __version__ = "1.0.0"
