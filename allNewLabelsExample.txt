@@ -1,0 +1,58 @@
+Last login: Wed Nov 16 09:03:35 on ttys000
+Vartans-MacBook-Pro:~ vartanbeno$ cd documents
+Vartans-MacBook-Pro:documents vartanbeno$ cd similartrellolabels
+Vartans-MacBook-Pro:similartrellolabels vartanbeno$ python similartrellolabels.py
+Copy/paste the following link in your web browser to get a new token.
+https://trello.com/1/authorize?key=b7f9422ee3cf641e1d9321a0aca2a3f8&name=Similar+Label+Detector&expiration=30days&response_type=token&scope=read,write
+List of cards, their respective ID's, and their respectiev label names:
+Sort out bug in program            || KkActTWA ||            Bug
+Correct bug in software            || 3Uij8Csc ||            Bog
+Prepare for release of product     || BipvyAub ||        Release
+Make sure launch goes smoothly     || 0JJDgGAZ || product-launch
+Correct error                      || ERIIsGWP ||          Error
+Fix bug in application             || VpGeXNsl ||            bug
+Product release imminent, ready up || Pj9MZaRI ||        Release
+Eliminate bugs in UI               || Vm99wayo ||           bugs
+Corriger l'erreur                  || bEj7lPO7 ||         Erreur
+Launch soon                        || W8iDVRNn || Product launch
+
+Here are the labels used in the Trello project. There are most likely some that are similar. The app will find similar ones based on your input, delete those, and preserve the input.
+['Bug', 'Bog', 'Release', 'product-launch', 'Error', 'bug', 'Release', 'bugs', 'Erreur', 'Product launch']
+
+
+What label name would you like to test? To terminate the program, don't input anything and simply press the enter key.
+bug
+The following labels' names are exact/similar to "bug":
+Bug
+bug
+bugs
+Bog
+
+
+What label name would you like to test? To terminate the program, don't input anything and simply press the enter key.
+release
+The following labels' names are exact/similar to "release":
+Release
+Release
+
+
+What label name would you like to test? To terminate the program, don't input anything and simply press the enter key.
+product launch
+The following labels' names are exact/similar to "product launch":
+Product launch
+product-launch
+
+
+What label name would you like to test? To terminate the program, don't input anything and simply press the enter key.
+error
+The following labels' names are exact/similar to "error":
+Error
+Erreur
+
+
+
+Here's the modified, shortened list of the label names:
+['Bug', 'Release', 'Product launch', 'Error']
+
+Great! There aren't any label names left from the original bunch.
+Vartans-MacBook-Pro:similartrellolabels vartanbeno$ 
