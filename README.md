@@ -1,6 +1,6 @@
 # similartrellolabels.py
 
-This Python program detects similarly named labels from a Trello project. The user will be prompted to input a label name, which will be kept in a list. Based on the user inputted word, similar label names will be detected. Used project in this example: https://trello.com/b/xj18FzNH/new-project
+This Python program detects similarly named labels from a Trello project. The user will be prompted to input a label name, which will be kept in a list. Based on the user inputted word, similar label names will be detected. [Used project in this example.](https://trello.com/b/xj18FzNH/new-project)
 
 # Building
 
