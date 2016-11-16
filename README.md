@@ -10,6 +10,6 @@ For the program to work, you must install the Python Trello API library found [h
 
 First, get your application key from here and paste it at the corresponding place in the Python program.
 
-Next, go to your Trello project on your browser, add .json at the end of the link, press enter. Copy the ID of the board: ["actions"][0]["data"]["board"]["id"]. Paste it at the corresponding place in the Python program.
+Next, go to the main page of you Trello board on your browser and copy the link. Run the program and paste it when asked to do so.
 
-Next, run the program and copy/paste the link outputted. Once you allow the app to use your account, you will be granted a 64-character authorization key. Paste it at the corresponding place in the Pythong program. This is important if the project board is set to private.
+Next, the program will output a link. Go to the link in your browser. Once you allow the app to use your account, you will be granted a 64-character authorization key. Paste it at the corresponding place in the Pythong program. This is important if the project board is set to private.
